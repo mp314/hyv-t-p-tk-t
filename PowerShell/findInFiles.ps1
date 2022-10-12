@@ -1,0 +1,1 @@
+Get-ChildItem -Path .\* -Include *.txt,*.csv  | Select-String “TODO” | Select Filename,Linenumber,Line
